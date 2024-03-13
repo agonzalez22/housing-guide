@@ -12,6 +12,7 @@ nav {
   position: sticky; 
   top: 0;
   z-index: 1000;
+  height: 75px;
 }
 
 .title {
@@ -26,7 +27,7 @@ nav {
   width: 40px;
   height: 40px;
   margin-top: 5px;
-  margin-left: 10px;
+  margin-left: 30px;
 }
 nav ul{
   display:flex;
@@ -75,6 +76,8 @@ nav .menu span {
   nav .menu{
     display: flex;
     left: 10px;
+    margin-top: 25px;
+    margin-left: 10px;
   }
 
   nav {
@@ -87,11 +90,11 @@ nav .menu span {
     flex-direction: column;
     width:100%;
     margin-bottom: 0.25rem;
-
   }
   nav ul li {
     width: 100%; 
     text-align: left;
+    background-color: white;
   }
 
   nav ul.open{
@@ -104,6 +107,7 @@ nav .menu span {
   }
   .seal {
     float: right;
-    margin-left: 350px;
+    margin-left: 300px;
+    margin-top: 15px;
   }
 }

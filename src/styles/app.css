@@ -5,10 +5,12 @@
 }
 
 .image {
+    /* can't be centered if width is 100% */
     display:block;
     width: 100%;
     height: auto;
     filter: grayscale(100%);
+    align-items: center;
 }
 
 .blurb {

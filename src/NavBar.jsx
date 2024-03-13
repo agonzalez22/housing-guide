@@ -23,13 +23,10 @@ const NavBar = () => {
       </div>
       <ul className={menuToggle ? 'open': ''}>
         <li>
-          <NavLink to="/the-guide">Homebuying guide</NavLink>
+          <NavLink to="/">Homebuying guide</NavLink>
         </li>
         <li>
           <NavLink to="/resources">Homebuying Resources</NavLink>
-        </li>
-        <li>
-          <NavLink to="/real-stories">Real Stories</NavLink>
         </li>
         <li>
           <NavLink to="/about">About This Site</NavLink>
