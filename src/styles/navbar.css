@@ -14,8 +14,7 @@ nav {
   top: 0;
   z-index: 1000;
   height: 5rem;
-  background-color: red;
-  line-height:4rem;
+  line-height: 4rem;
   vertical-align: middle;
 }
 
@@ -71,18 +70,17 @@ nav .menu span {
   width: 100%;
   /* border-radius: 0.2rem; */
   background-color: rgb(0, 0, 0);
+  text-align: center;
 }
 /* if the screen is tiny */
 @media (max-width: 600px) {
   nav .menu {
     display: flex;
-    align-items: right;
   }
 
   nav {
     flex-direction: column;
-    align-items: none;
-    background-color:red
+    align-items: flex-start;
   }
 
   nav ul {
@@ -91,15 +89,21 @@ nav .menu span {
     width: 100%;
     margin-bottom: 0.25rem;
   }
+
+  nav ul.open {
+    display: flex;
+  }
+
   nav ul li {
     width: 100%;
     text-align: right;
     background-color: white;
   }
 
-  nav ul.open {
-    display: flex;
+  nav ul li a {
+    margin: 0.1rem 0.5rem;
   }
+
   .title {
     /* just make it transparent */
     color: rgba(255, 255, 255, 0);
