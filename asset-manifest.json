@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/housing-guide/static/css/main.7a2e22f5.css",
-    "main.js": "/housing-guide/static/js/main.3f06c19c.js",
+    "main.js": "/housing-guide/static/js/main.43a46244.js",
     "index.html": "/housing-guide/index.html",
     "main.7a2e22f5.css.map": "/housing-guide/static/css/main.7a2e22f5.css.map",
-    "main.3f06c19c.js.map": "/housing-guide/static/js/main.3f06c19c.js.map"
+    "main.43a46244.js.map": "/housing-guide/static/js/main.43a46244.js.map"
   },
   "entrypoints": [
     "static/css/main.7a2e22f5.css",
-    "static/js/main.3f06c19c.js"
+    "static/js/main.43a46244.js"
   ]
 }
