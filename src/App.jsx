@@ -13,15 +13,15 @@ function App() {
   return (
     <>
       <div classname="App">
-      <HashRouter>
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<HomebuyingGuide />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/resources" element={<HomebuyingResources />} />
-        </Routes>
+        <HashRouter>
+          <NavBar />
+          <Routes>
+            <Route path="/" element={<HomebuyingGuide />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/resources" element={<HomebuyingResources />} />
+          </Routes>
+        </HashRouter>
       </div>
-      </HashRouter>
     </>
   );
 }
