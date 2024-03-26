@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.7a2e22f5.css",
-    "main.js": "/static/js/main.57aca650.js",
-    "index.html": "/index.html",
-    "main.7a2e22f5.css.map": "/static/css/main.7a2e22f5.css.map",
-    "main.57aca650.js.map": "/static/js/main.57aca650.js.map"
+    "main.css": "/housing-guide/static/css/main.7a2e22f5.css",
+    "main.js": "/housing-guide/static/js/main.3f06c19c.js",
+    "index.html": "/housing-guide/index.html",
+    "main.7a2e22f5.css.map": "/housing-guide/static/css/main.7a2e22f5.css.map",
+    "main.3f06c19c.js.map": "/housing-guide/static/js/main.3f06c19c.js.map"
   },
   "entrypoints": [
     "static/css/main.7a2e22f5.css",
-    "static/js/main.57aca650.js"
+    "static/js/main.3f06c19c.js"
   ]
 }
