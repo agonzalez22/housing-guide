@@ -13,14 +13,15 @@ function App() {
   return (
     <>
       <div classname="App">
-        <HashRouter>
+        
           <NavBar />
           <Routes>
-            <Route path="/" element={<HomebuyingGuide />} />
+            {/* <Route path="/" element={<HomebuyingGuide />} /> */}
             <Route path="/about" element={<About />} />
             <Route path="/resources" element={<HomebuyingResources />} />
+            <Route path="/housing-guide" element={<HomebuyingGuide />} />
           </Routes>
-        </HashRouter>
+    
       </div>
     </>
   );
