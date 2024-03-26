@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import NavBar from "./NavBar";
-import { Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import "./styles/app.css";
 import About from "./pages/About";
 import HomebuyingGuide from "./pages/HomebuyingGuide";
@@ -13,6 +13,7 @@ function App() {
   return (
     <>
       <div classname="App">
+      <HashRouter>
         <NavBar />
         <Routes>
           <Route path="/" element={<HomebuyingGuide />} />
@@ -20,6 +21,7 @@ function App() {
           <Route path="/resources" element={<HomebuyingResources />} />
         </Routes>
       </div>
+      </HashRouter>
     </>
   );
 }

@@ -1,5 +1,6 @@
 {
   "name": "housing_guide",
+  "homepage": "https://agonzalez22.github.io/housing-guide/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
